@@ -1,8 +1,7 @@
-AutoGalfit:
-Has errors and is the 1st version of the Monte-Carlo code
-AutoGalfitV2:
-Has no known errors and is what should be used generally 
-AutoGalfitV3:
-Same functionality as V2 except runs through a GUI instead of through the application
-AutoGalfitV4:
-Same as V2 except it randomly changes the initial guess of the position angle from 1 to 180
+The executable to use is called "AutoGalfit". This is a wrapper software around Galfit which performs the following additional features
+
+1. Can automatically run galfit an arbitrary number of times (the general recomendation for a monte-carlo procedure like this is 1000-10,000 trials)
+2. Randomly adjusts each pixel value in the image based on the inputted weight map
+2. Randomly adjusts the initial guesses (Galfit has a tendancy to care about the guess provided in the feedme file)
+
+Additionally, we provide our code which is in the file called "AutoGalfit_SC". Feel free to let us know if you have any suggestions, my email is rvenkatphys@gmail.com, thank you!
