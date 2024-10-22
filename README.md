@@ -5,3 +5,5 @@ The executable to use is called "AutoGalfit". This is a wrapper software around 
 2. Randomly adjusts the initial guesses (Galfit has a tendancy to care about the guess provided in the feedme file)
 
 Additionally, we provide our code which is in the file called "AutoGalfit_SC". Feel free to let us know if you have any suggestions, my email is rvenkatphys@gmail.com, thank you!
+
+![UI](UI.png)
