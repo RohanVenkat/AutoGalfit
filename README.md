@@ -1,3 +1,5 @@
+#How to use AutoGalfit
+
 The executable to use is called "AutoGalfit". This is a wrapper software around Galfit which performs the following additional features
 
 1. Can automatically run galfit an arbitrary number of times (the general recomendation for a monte-carlo procedure like this is 1000-10,000 trials)
