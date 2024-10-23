@@ -1,4 +1,4 @@
-#How to use AutoGalfit
+# How to use AutoGalfit
 
 The executable to use is called "AutoGalfit". This is a wrapper software around Galfit which performs the following additional features
 
